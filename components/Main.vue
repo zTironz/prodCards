@@ -11,7 +11,7 @@
         <input type="text" placeholder="Введите ссылку">
         <h6 class="main__fist-column-price">Цена товара</h6>
         <input type="text" placeholder="Введите цену">
-        <button class="button" @click="say('hi')">Добавить товар</button>
+        <button class="button" >Добавить товар</button>
       </div>
     </div>
     <div class="main__second-column">
@@ -135,11 +135,11 @@ color: #49485E;
 
 
 <script>
-export default {
-  methods: {
-    say: function (message) {
-      alert(message)
-    }
-  }
-}
+// export default {
+//   methods: {
+//     say: function (message) {
+//       alert(message)
+//     }
+//   }
+// }
 </script>
